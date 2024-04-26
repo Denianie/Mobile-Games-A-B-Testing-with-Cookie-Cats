@@ -17,15 +17,13 @@ Feature|Type|Description
 ### 1-day retention
 
 - There was a slight decrease in 1-day retention when the gate was moved from level 30 (44.8%) to level 40 (44.2%).
-- However, according to our chi-squared test, there was no significant difference in retention rates between the two versions at the 5% significance level. We do not have enough evidence to reject our null hypothesis that retention rate is the same for the two versions.
-- From our bayesian analysis, the probability that 1-day retention is greater when the gate is at level 30 is 96.7%.
+- Bootstrapping was used to resample and estimate the variability in retention rates. The analysis shows that the most likely retention is slightly better when the gate is at level 30.
 
 ### 7-day retention
 
 - There was also a slight decrease in 7-day retention when the gate was moved from level 30 (19.0%) to level 40 (18.2%).
-- According to our chi-squared test, there was a significant difference in retention rates at the 1% significance level. We reject our null hypothesis and accept our alternative hypothesis that 7-day retention rate is higher when the gate is at level 30.
-- From our bayesian analysis, the probability that 7-day retention is greater when the gate is at level 30 is 100%.
+- Further bootstrapping analysis suggests a strong likelihood (100% probability) that 7-day retention is higher when the gate is at level 30.
 
 ## Conclusion and Recommendations 🛠️
 - There is strong evidence that 7-day retention is higher when the first gate is at level 30 than when it is at level 40. We should not move the gate from level 30 to level 40.
-- Close to 4,000 players (4.4%) did not play a single round after installation and more than 20,000 players (23%) played five rounds or less. We can try to collect player feedback, for example, through an in-app survey.
+- Significant proportions of players showed minimal engagement in 1-day retention (0 game rounds). Strategies such as in-app surveys could be explored to enhance player retention and engagement based on their feedback.
